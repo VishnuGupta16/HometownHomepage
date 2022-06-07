@@ -1,0 +1,181 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+body {
+    margin: 0px;
+}
+
+.dimensions {
+    width: 720px;
+    height: 343px; 
+}
+
+.display-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero { 
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    flex-direction: column;
+}
+
+#hero-title {
+    background: #1D3557;
+    border-radius: 5px;
+    padding: 3px 8px;
+    color: #FFFFFF;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    
+    margin-bottom: 10px;
+}
+
+
+#hero-desc {
+    margin-top: 0px;
+    background:  #457B9D;
+    border-radius: 5px;
+    padding: 3px 8px;
+    color: #FFFFFF;
+   
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 15px;
+    
+    
+    
+    width: 280px;
+    text-align: center;
+}
+
+
+#activities {
+    justify-content: space-around;
+    text-align: center;
+    background: #F1FAEE;
+}
+
+.activities-img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.activities-title {
+    width: 180px;
+    height: 32px;
+    left: 41px;
+    top: 181px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+   
+
+    color: #1D3557;
+}
+
+.activities-desc {
+    margin-top: 0px;
+    width: 198px;
+    height: 55px;
+    left: 34px;
+    top: 230px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+
+}
+
+#guide {
+     text-align: center;
+     background: #FFFFFF;
+}
+
+#guide-card {
+    width: 400px;
+    height: 294px;
+    justify-content: space-around;
+
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+}
+
+#guide-img {
+    width: 50%;
+    height: 85%;
+   
+    background-image: url("images/per.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    
+    margin: 0px 10px;
+}
+
+#guide-details {
+    width: 50%;
+    margin: 0px 10px 0px 0px;
+}
+
+#guide-title {
+    width: 207px;
+    height: 32px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #1D3557;
+}
+
+#guide-name {
+    width: 189px;
+    height: 18px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #1D3557;
+}
+
+#guide-desc {
+    width: 189px;
+    height: 71px;
+
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #1D3557;
+}
